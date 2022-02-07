@@ -576,6 +576,14 @@ h6 {
 @media only screen and (max-width: 1200px) {
   /* For mobile phones: */
 
+  nav li a:link {
+    font-size: 3vw;
+  }
+
+  .border_footer {
+    padding: 60px;
+  }
+
   .margin_right {
     margin-right: auto !important;
     margin-left: 20px;
