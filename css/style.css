@@ -26,7 +26,7 @@ body {
 #menu {
   width: 90%;
   margin: 0 auto;
-  height: 159px;
+  height: 124px;
 }
 
 #topbar {
@@ -47,25 +47,25 @@ body {
 }
 
 nav li a:hover {
-  font-size: 2vw;
+  font-size: 1.5vw;
   color: #fff;
   text-decoration: none;
 }
 
 nav li a:visited {
-  font-size: 2vw;
+  font-size: 1.5vw;
   color: #fff;
   text-decoration: none;
 }
 
 nav li a:active {
-  font-size: 2vw;
+  font-size: 1.5vw;
   color: #fff;
   text-decoration: none;
 }
 
 nav li a:link {
-  font-size: 2vw;
+  font-size: 1.5vw;
   color: #fff;
   text-decoration: none;
 }
@@ -81,7 +81,7 @@ nav li a:link {
   background-size: cover;
   min-height: 100vh;
 
-  margin-top: -159px;
+  margin-top: -124px;
   z-index: -1;
   position: relative;
 }
@@ -102,7 +102,7 @@ nav li a:link {
 }
 
 .text-top {
-  padding-top: 45vh;
+  padding-top: 41vh;
   width: 48%;
   margin: 0 auto;
 }
@@ -168,11 +168,11 @@ nav li a:link {
 .contentText {
   font-size: 30px;
   line-height: 40px;
-  padding-right: 70px;
+  padding-right: 20px;
 }
 
 .padding_261 {
-  padding-top: 261px;
+  padding-top: 211px;
 }
 
 .padding_121 {
@@ -193,8 +193,8 @@ nav li a:link {
   background-position: 15px 5px;
   width: 685px;
   height: 60vh;
-  margin-top: -230px;
-  margin-left: 50px;
+  margin-top: -265px;
+  margin-left: -15px;
 
   z-index: 9999;
 }
@@ -262,7 +262,7 @@ a:active {
 .box {
   width: 122px;
   height: 122px;
-  margin: 16px;
+  margin: 8px;
   border-radius: 5px;
   font-size: 20px;
   color: #fff;
@@ -274,6 +274,10 @@ a:active {
 
   transition-duration: 800ms;
   transition-delay: 0ms;
+
+  -webkit-box-shadow: 0px 11px 22px -20px rgba(66, 68, 90, 1);
+  -moz-box-shadow: 0px 11px 22px -20px rgba(66, 68, 90, 1);
+  box-shadow: 0px 11px 22px -20px rgba(66, 68, 90, 1);
 }
 
 .box:hover {
@@ -367,9 +371,13 @@ h6 {
   margin-left: 12px;
 }
 
+.margin-left {
+  margin-left: 80px;
+}
+
 .about_box {
   border: 0;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .about_box img {
@@ -379,7 +387,7 @@ h6 {
 .right {
   right: 0px;
   margin-top: -285px;
-  margin-right: -80px;
+  margin-right: -180px;
 }
 
 #realizations {
@@ -409,7 +417,7 @@ h6 {
 
 .center {
   margin: 0 auto;
-  margin-top: -200px;
+  margin-top: -110px;
   z-index: 0;
 }
 
@@ -480,7 +488,7 @@ h6 {
 
 #findus {
   margin-top: 170px;
-  min-height: 60vh;
+  min-height: 70vh;
   background: url(../img/findus.jpg);
   background-position: center center;
   background-repeat: no-repeat;
@@ -492,8 +500,8 @@ h6 {
 }
 
 .center_findus {
-  margin-left: 32vw;
-  margin-top: -175px;
+  margin-left: 34vw;
+  margin-top: -125px;
 }
 
 #materials {
@@ -681,6 +689,17 @@ h6 {
   }
 
   .width_35 {
+  }
+
+  .width_30 {
+    width: 100% !important;
+  }
+
+  .w-85 {
+    width: 100% !important;
+  }
+
+  .w-60 {
     width: 100% !important;
   }
 
@@ -904,4 +923,75 @@ h6 {
 .padding_104 {
   padding-bottom: 104px;
   padding-top: 41px;
+}
+
+.width {
+  width: 1516px !important;
+  margin: 0 auto;
+}
+
+.numbers {
+  font-size: 20px;
+  margin-top: 20px;
+
+  position: absolute;
+}
+
+.text_menu {
+  margin-left: 50px;
+}
+
+.drukarnia {
+  margin-top: -100px;
+  margin-left: -110px;
+}
+
+.padding_left {
+  padding-left: 125px;
+}
+
+.padding_61 {
+  padding-top: 61px;
+}
+
+.padding_bottom_97 {
+  padding-bottom: 97px;
+}
+
+.width_30 {
+  width: 30%;
+}
+
+.w-60 {
+  width: 55%;
+  padding-top: 16px;
+}
+
+.tech_img {
+  margin-left: 140px;
+  margin-top: 20px;
+}
+
+.w-85 {
+  padding-top: 50px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.margin-top {
+  margin-top: -90px;
+}
+
+.padding-top {
+  padding-top: 30px;
+}
+
+.padding-left {
+  padding-left: 80px;
+}
+
+@media only screen and (max-width: 1800px) {
+  .width {
+    width: 90% !important;
+  }
 }
