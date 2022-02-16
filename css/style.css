@@ -154,6 +154,8 @@ nav li a:link {
   width: 90%;
   margin: 0 auto;
   margin-top: 26px;
+  z-index: 9999999;
+  position: relative;
 }
 
 .about {
@@ -994,4 +996,8 @@ h6 {
   .width {
     width: 90% !important;
   }
+}
+
+.tech_footer {
+  margin-top: -165px !important;
 }
